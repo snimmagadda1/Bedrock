@@ -1,14 +1,14 @@
 {
-  "name": "@bedrock-layout/columns",
-  "version": "1.0.1",
-  "description": "bedrock-layout columns",
+  "name": "@bedrock-layout/split",
+  "version": "1.0.0",
+  "description": "bedrock-layout split",
   "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "columns",
+    "split",
     "layout",
     "react"
   ],

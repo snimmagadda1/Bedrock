@@ -6,31 +6,52 @@ import {
   Spacing,
 } from '@bedrock-layout/spacing-constants';
 
+type FractionTypes =
+  | 'auto-start'
+  | 'auto-end'
+  | '1/4'
+  | '1/3'
+  | '1/2'
+  | '2/3'
+  | '3/4';
+
+type Fractions = {
+  [key in FractionTypes]: string;
+};
+
+const fractions: Fractions = {
+  '1/4': '1fr 3fr',
+  '1/3': '1fr 2fr',
+  '1/2': '1fr 1fr',
+  '2/3': '2fr 1fr',
+  '3/4': '3fr 1fr',
+  'auto-start': `auto 1fr`,
+  'auto-end': `1fr auto`,
+};
+
 type MergeSpacings = (spacing: object) => Spacing;
 const mergeSpacings: MergeSpacings = (spacing = {}) => ({
   ...defaultSpacings,
   ...spacing,
 });
 
-export interface ColumnsProps {
+export interface SplitProps {
   gutter?: SpacingTypes;
-  columns?: number;
-  dense?: boolean;
+  fraction?: FractionTypes;
 }
 
-const Columns = styled.div<ColumnsProps>`
+const Split = styled.div<SplitProps>`
   box-sizing: border-box;
 
   --gutter: ${({ gutter, theme: { spacing = {} } }) =>
     gutter && mergeSpacings(spacing)[gutter]
       ? mergeSpacings(spacing)[gutter]
       : mergeSpacings(spacing).md};
-  --columns: ${({ columns = 1 }) => (columns > 0 ? columns : 1)};
 
   display: grid;
-  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-template-columns: ${({ fraction = '1/2' }) =>
+    fractions[fraction] || fractions['1/2']}};
   grid-gap: var(--gutter);
-  grid-auto-flow: row ${props => props.dense === true && 'dense'};
 
   @supports not (grid-gap: var(--gutter)) {
     display: flex;
@@ -45,41 +66,20 @@ const Columns = styled.div<ColumnsProps>`
   }
 `;
 
-Columns.displayName = 'Columns';
+Split.displayName = 'Split';
 
-Columns.propTypes = {
+Split.propTypes = {
   gutter: PropTypes.oneOf<SpacingTypes>(
     Object.keys(defaultSpacings) as SpacingTypes[]
   ),
-  columns: PropTypes.number,
-  dense: PropTypes.bool,
+  fraction: PropTypes.oneOf<FractionTypes>(
+    Object.keys(fractions) as FractionTypes[]
+  ),
 };
 
-Columns.defaultProps = {
+Split.defaultProps = {
   gutter: 'md',
-  columns: 1,
-  dense: false,
+  fraction: '1/2',
 };
 
-export interface ColumnProps {
-  span?: number;
-}
-
-type SafeSpan = (span: any) => number;
-const safeSpan: SafeSpan = span => {
-  return Number.isInteger(span) ? span : 1;
-};
-
-export const Column = styled.div<ColumnProps>`
-  grid-column: span ${({ span = 1 }) => Math.max(safeSpan(span), 1)} / auto;
-`;
-
-Column.propTypes = {
-  span: PropTypes.number,
-};
-
-Column.defaultProps = {
-  span: 1,
-};
-
-export default Columns;
+export default Split;
