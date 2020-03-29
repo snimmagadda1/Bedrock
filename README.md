@@ -1,6 +1,6 @@
 # ![Logo 1 Small](https://user-images.githubusercontent.com/5460770/77477816-8df68000-6de2-11ea-83be-9f12c8de7f0d.png)
 
-Foundational Layout Primitives for your React App
+## Foundational Layout Primitives for your React App
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
@@ -16,10 +16,13 @@ Full docs at: [bedrock-layout.dev](https://bedrock-layout.dev/)
 | ✅     | Stack             |
 | ✅     | Grid              |
 | ✅     | Split             |
-| 🛠      | AppBoundary       |
+| ✅     | AppBoundary       |
 | ✅     | Columns           |
-| 🛠      | InlineCluster     |
+| 🛠      | Center            |
 | ✅     | PadBox            |
+| 🛠      | InlineCluster     |
+|        | Cover             |
+|        | Frame             |
 |        | useMediaQuery     |
 |        | useContainerQuery |
 |        | useForwardRef     |

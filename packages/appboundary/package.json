@@ -1,14 +1,14 @@
 {
-  "name": "@bedrock-layout/split",
-  "version": "1.0.1",
-  "description": "bedrock-layout split",
+  "name": "@bedrock-layout/appboundary",
+  "version": "1.0.4",
+  "description": "bedrock-layout appboundary",
   "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "split",
+    "appboundary",
     "layout",
     "react"
   ],
