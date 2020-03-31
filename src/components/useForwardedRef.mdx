@@ -1,0 +1,42 @@
+---
+name: useForwardedRef
+menu: Components
+---
+
+# Stack
+
+## Use case
+
+The Stack is designed to literally 'stack' items on top of eachother while maintaining a consistent gap/gutter in between each item.
+
+## How to install
+
+```bash
+  npm install @bedrock-layout/use-forwarded-ref
+```
+
+## Basic usage
+
+```javascript
+import useForwardedRef from '@bedrock-layout/use-forwarded-ref';
+
+const ForwardedRefDiv = React.forwardRef(props,ref)=>{
+    const innerRef = useForwardedRef(ref)
+    // do something with innerRef
+    return <div ref={innerRef} {...props}>
+}
+```
+
+Then in your app you would use it like this:
+
+```javascript
+const App = () => {
+  const ref = React.useRef(null);
+  console.log(ref.current);
+  return <ForwardedRefDiv ref={ref}>{...content}</ForwardedRefDiv>;
+};
+```
+
+## Storybook
+
+[Checkout storybook](https://storybook.bedrock-layout.dev/?path=/story/useforwardedref--basic) for more details.

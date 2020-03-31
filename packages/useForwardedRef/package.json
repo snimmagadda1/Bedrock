@@ -1,16 +1,17 @@
 {
-  "name": "@bedrock-layout/padbox",
-  "version": "1.0.3",
-  "description": "bedrock-layout padbox layout primitive",
+  "name": "@bedrock-layout/use-forwarded-ref",
+  "version": "1.0.0",
+  "description": "bedrock-layout useForwardedRef",
   "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "padbox",
-    "layout",
-    "react"
+    "useForwardedRef",
+    "react",
+    "hook",
+    "useRef"
   ],
   "author": "Jarvis1010 <travis.mair@gmail.com>",
   "homepage": "https://bedrock-layout.dev/",
@@ -28,13 +29,6 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "@bedrock-layout/spacing-constants": "^1.0.2"
-  },
-  "peerDependencies": {
-    "react": ">=16.8",
-    "styled-components": ">=5"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bedrock-Layouts/Bedrock.git"
@@ -42,9 +36,14 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "clean:build": "rimraf lib",
-    "build": "microbundle build --jsx react && rimraf ./.rts2_cache*"
+    "build": "microbundle build --jsx react && rimraf ./.rts2_cache*",
+    "build:watch": "microbundle build --jsx react --watch"
   },
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
-  }
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "gitHead": "beb5a6429443e6e95f6c20c2bc5789840580f52e"
 }
