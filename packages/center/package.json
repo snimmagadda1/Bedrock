@@ -1,6 +1,6 @@
 {
   "name": "@bedrock-layout/center",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "bedrock-layout center",
   "sideEffects": false,
   "private": false,
@@ -30,7 +30,7 @@
     "lib"
   ],
   "dependencies": {
-    "@bedrock-layout/spacing-constants": "^1.0.2"
+    "@bedrock-layout/spacing-constants": "^1.0.3"
   },
   "peerDependencies": {
     "react": ">=16.8",
@@ -47,5 +47,6 @@
   },
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
-  }
+  },
+  "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec"
 }

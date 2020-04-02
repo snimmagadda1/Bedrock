@@ -1,6 +1,6 @@
 {
   "name": "@bedrock-layout/use-forwarded-ref",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "bedrock-layout useForwardedRef",
   "sideEffects": false,
   "private": false,
@@ -45,5 +45,5 @@
   "peerDependencies": {
     "react": ">=16.8"
   },
-  "gitHead": "beb5a6429443e6e95f6c20c2bc5789840580f52e"
+  "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec"
 }
