@@ -21,9 +21,9 @@ Full docs at: [bedrock-layout.dev](https://bedrock-layout.dev/)
 | ✅     | Center              |
 | ✅     | PadBox              |
 | 🛠      | Switcher            |
-| 🛠      | useForwardedRef     |
+| ✅     | useForwardedRef     |
 | 🛠      | useMatchBreakpoints |
-| 🛠      | useContainerQuery   |
+| ✅     | useContainerQuery   |
 |        | InlineCluster       |
 |        | Cover               |
 |        | Frame               |

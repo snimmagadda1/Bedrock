@@ -1,5 +1,5 @@
 import React from 'react';
-import useForwardedRef from '@bedrock-layout/useForwardedRef';
+import useForwardedRef from '@bedrock-layout/use-forwarded-ref';
 import styled from 'styled-components';
 
 const BorderedBox = styled.div`
@@ -10,7 +10,7 @@ BorderedBox.displayName = 'BorderedBox';
 
 const RefBox = React.forwardRef<HTMLElement, { children?: React.ReactNode }>(
   ({ children }, ref) => {
-    const innerRef = useForwardedRef(ref);
+    const innerRef = useForwardedRef<HTMLElement>(ref);
     const [rect, setRect] = React.useState({});
     React.useEffect(() => {
       if (innerRef.current) {
