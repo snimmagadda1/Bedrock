@@ -1,16 +1,17 @@
 {
-  "name": "@bedrock-layout/appboundary",
-  "version": "1.0.9",
-  "description": "bedrock-layout appboundary",
+  "name": "@bedrock-layout/use-match-container-sizes",
+  "version": "1.0.4",
+  "description": "bedrock-layout useMatchContainerSizes",
   "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "appboundary",
-    "layout",
-    "react"
+    "useMatchContainerSizes",
+    "react",
+    "hook",
+    "useRef"
   ],
   "author": "Jarvis1010 <travis.mair@gmail.com>",
   "homepage": "https://bedrock-layout.dev/",
@@ -28,14 +29,6 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "@bedrock-layout/center": "^1.0.8",
-    "@bedrock-layout/spacing-constants": "^1.0.4"
-  },
-  "peerDependencies": {
-    "react": ">=16.8",
-    "styled-components": ">=5"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bedrock-Layouts/Bedrock.git"
@@ -43,10 +36,19 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "clean:build": "rimraf lib",
-    "build": "microbundle build --jsx react && rimraf ./.rts2_cache*"
+    "build": "microbundle build --jsx react && rimraf ./.rts2_cache*",
+    "build:watch": "microbundle build --jsx react --watch"
   },
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
   },
-  "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec"
+  "peerDependencies": {
+    "react": ">=16.8",
+    "styled-components": ">=5"
+  },
+  "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec",
+  "dependencies": {
+    "@bedrock-layout/spacing-constants": "^1.0.4",
+    "@bedrock-layout/use-container-query": "^1.0.4"
+  }
 }
