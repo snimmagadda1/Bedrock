@@ -1,16 +1,17 @@
 {
-  "name": "@bedrock-layout/grid",
-  "version": "1.0.8",
-  "description": "bedrock-layout gird",
+  "name": "@bedrock-layout/type-utils",
+  "version": "0.0.2",
+  "description": "bedrock-layout type utils",
   "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "grid",
-    "layout",
-    "react"
+    "type utils",
+    "react",
+    "hook",
+    "useRef"
   ],
   "author": "Jarvis1010 <travis.mair@gmail.com>",
   "homepage": "https://bedrock-layout.dev/",
@@ -18,7 +19,6 @@
   "unpkg": "lib/index.umd.js",
   "main": "lib/index.js",
   "umd:main": "lib/index.umd.js",
-  "module": "lib/index.m.js",
   "source": "src/index.tsx",
   "types": "lib/index.d.ts",
   "directories": {
@@ -28,13 +28,6 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "@bedrock-layout/spacing-constants": "^1.0.5"
-  },
-  "peerDependencies": {
-    "react": ">=16.8",
-    "styled-components": ">=5"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bedrock-Layouts/Bedrock.git"
@@ -48,5 +41,7 @@
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
   },
-  "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec"
+  "peerDependencies": {
+    "react": ">=16.8"
+  }
 }

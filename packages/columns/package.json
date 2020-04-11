@@ -1,6 +1,6 @@
 {
   "name": "@bedrock-layout/columns",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "bedrock-layout columns",
   "sideEffects": false,
   "private": false,
@@ -29,7 +29,7 @@
     "lib"
   ],
   "dependencies": {
-    "@bedrock-layout/spacing-constants": "^1.0.4"
+    "@bedrock-layout/spacing-constants": "^1.0.5"
   },
   "peerDependencies": {
     "react": ">=16.8",
@@ -42,7 +42,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "clean:build": "rimraf lib",
-    "build": "microbundle build --jsx react && rimraf ./.rts2_cache*"
+    "build": "microbundle build --jsx react && rimraf ./.rts2_cache*",
+    "build:watch": "microbundle build --jsx react --watch"
   },
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
