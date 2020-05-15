@@ -1,6 +1,5 @@
 import React, { Children } from 'react';
 import styled from 'styled-components';
-import PadBox, { PadBoxProps } from '@bedrock-layout/padbox';
 import { forwardRefWithAs } from '@bedrock-layout/type-utils';
 import PropTypes from 'prop-types';
 import {
@@ -16,34 +15,34 @@ const VerticallyCentered = styled.div`
   margin-block-end: auto;
 `;
 
-interface CoverWrapperProps extends PadBoxProps {
+const Top = styled.div`
+  margin-top: 0;
+  margin-block-start: 0;
+  margin-bottom: var(--gutter);
+  margin-block-end: var(--gutter);
+`;
+
+const Bottom = styled.div`
+  margin-top: var(--gutter);
+  margin-block-start: var(--gutter);
+  margin-bottom: 0;
+  margin-block-end: 0;
+`;
+
+interface CoverWrapperProps {
   gutter?: SpacingTypes;
   minHeight?: string;
 }
 
-const CoverWrapper = styled(PadBox)<CoverWrapperProps>`
+const CoverWrapper = styled.div<CoverWrapperProps>`
   --gutter: ${({ gutter, theme: { spacing = {} } }) =>
     gutter && mergeSpacings(spacing)[gutter]
       ? mergeSpacings(spacing)[gutter]
-      : mergeSpacings(spacing).md};
+      : mergeSpacings(spacing).lg};
 
   display: flex;
   flex-direction: column;
-  min-height: ${(props) => props.minHeight || '100vh'};
-
-  & > *:not(${VerticallyCentered}) {
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
-    margin-block-start: var(--gutter);
-    margin-block-end: var(--gutter);
-  }
-  & > :first-child:not(${VerticallyCentered}) {
-    margin-top: 0;
-  }
-
-  & > :last-child:not(${VerticallyCentered}) {
-    margin-bottom: 0;
-  }
+  min-height: ${props => props.minHeight || '100vh'};
 `;
 
 export interface CoverProps extends CoverWrapperProps {
@@ -55,9 +54,9 @@ const Cover = forwardRefWithAs<CoverProps, 'div'>(
   ({ children, top, bottom, as, ...props }, ref) => {
     return (
       <CoverWrapper as={as} ref={ref} {...props}>
-        {top && Children.only(top)}
+        {top && <Top>{Children.only(top)}</Top>}
         <VerticallyCentered>{Children.only(children)}</VerticallyCentered>
-        {bottom && Children.only(bottom)}
+        {bottom && <Bottom>{Children.only(bottom)}</Bottom>}
       </CoverWrapper>
     );
   }

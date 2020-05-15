@@ -1,6 +1,6 @@
 {
   "name": "@bedrock-layout/columns",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "bedrock-layout columns",
   "sideEffects": false,
   "private": false,
@@ -48,5 +48,5 @@
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
   },
-  "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec"
+  "gitHead": "a259e730ef453edf080e5196b01bdadba5028474"
 }

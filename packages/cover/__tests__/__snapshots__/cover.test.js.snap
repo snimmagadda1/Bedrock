@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Cover correct usage renders all the gutter options 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -9,8 +9,6 @@ exports[`Cover correct usage renders all the gutter options 1`] = `
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
   --gutter: 0px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -22,26 +20,11 @@ exports[`Cover correct usage renders all the gutter options 1`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -51,31 +34,14 @@ exports[`Cover correct usage renders all the gutter options 1`] = `
 `;
 
 exports[`Cover correct usage renders all the gutter options 2`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
   --gutter: 0.125rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -87,26 +53,11 @@ exports[`Cover correct usage renders all the gutter options 2`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -116,46 +67,14 @@ exports[`Cover correct usage renders all the gutter options 2`] = `
 `;
 
 exports[`Cover correct usage renders all the gutter options 3`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
   --gutter: 0.25rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -167,26 +86,11 @@ exports[`Cover correct usage renders all the gutter options 3`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -196,61 +100,14 @@ exports[`Cover correct usage renders all the gutter options 3`] = `
 `;
 
 exports[`Cover correct usage renders all the gutter options 4`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
   --gutter: 0.5rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -262,26 +119,11 @@ exports[`Cover correct usage renders all the gutter options 4`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -291,76 +133,14 @@ exports[`Cover correct usage renders all the gutter options 4`] = `
 `;
 
 exports[`Cover correct usage renders all the gutter options 5`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c6 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c6 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c6 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
   --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -372,26 +152,11 @@ exports[`Cover correct usage renders all the gutter options 5`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -401,91 +166,14 @@ exports[`Cover correct usage renders all the gutter options 5`] = `
 `;
 
 exports[`Cover correct usage renders all the gutter options 6`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c6 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c6 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c6 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c7 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c7 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c7 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
   --gutter: 2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -497,26 +185,11 @@ exports[`Cover correct usage renders all the gutter options 6`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -526,106 +199,14 @@ exports[`Cover correct usage renders all the gutter options 6`] = `
 `;
 
 exports[`Cover correct usage renders all the gutter options 7`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c6 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c6 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c6 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c7 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c7 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c7 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c8 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c8 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c8 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
   --gutter: 4rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -637,26 +218,11 @@ exports[`Cover correct usage renders all the gutter options 7`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -666,7 +232,7 @@ exports[`Cover correct usage renders all the gutter options 7`] = `
 `;
 
 exports[`Cover correct usage renders all the padding options 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -674,9 +240,7 @@ exports[`Cover correct usage renders all the padding options 1`] = `
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding: 0px;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -687,26 +251,11 @@ exports[`Cover correct usage renders all the padding options 1`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -716,32 +265,15 @@ exports[`Cover correct usage renders all the padding options 1`] = `
 `;
 
 exports[`Cover correct usage renders all the padding options 2`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.125rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -752,26 +284,11 @@ exports[`Cover correct usage renders all the padding options 2`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -781,47 +298,15 @@ exports[`Cover correct usage renders all the padding options 2`] = `
 `;
 
 exports[`Cover correct usage renders all the padding options 3`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.25rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -832,26 +317,11 @@ exports[`Cover correct usage renders all the padding options 3`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -861,62 +331,15 @@ exports[`Cover correct usage renders all the padding options 3`] = `
 `;
 
 exports[`Cover correct usage renders all the padding options 4`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -927,26 +350,11 @@ exports[`Cover correct usage renders all the padding options 4`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -956,77 +364,15 @@ exports[`Cover correct usage renders all the padding options 4`] = `
 `;
 
 exports[`Cover correct usage renders all the padding options 5`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c6 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c6 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c6 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 1rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1037,26 +383,11 @@ exports[`Cover correct usage renders all the padding options 5`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1066,92 +397,15 @@ exports[`Cover correct usage renders all the padding options 5`] = `
 `;
 
 exports[`Cover correct usage renders all the padding options 6`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c6 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c6 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c6 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c7 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c7 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c7 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 2rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1162,26 +416,11 @@ exports[`Cover correct usage renders all the padding options 6`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1191,107 +430,15 @@ exports[`Cover correct usage renders all the padding options 6`] = `
 `;
 
 exports[`Cover correct usage renders all the padding options 7`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c6 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c6 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c6 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c7 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c7 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c7 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c8 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c8 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c8 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 4rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1302,26 +449,11 @@ exports[`Cover correct usage renders all the padding options 7`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1331,7 +463,7 @@ exports[`Cover correct usage renders all the padding options 7`] = `
 `;
 
 exports[`Cover correct usage renders custom height 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -1339,9 +471,7 @@ exports[`Cover correct usage renders custom height 1`] = `
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1352,26 +482,11 @@ exports[`Cover correct usage renders custom height 1`] = `
   min-height: 500px;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1381,7 +496,7 @@ exports[`Cover correct usage renders custom height 1`] = `
 `;
 
 exports[`Cover correct usage renders default 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -1389,9 +504,7 @@ exports[`Cover correct usage renders default 1`] = `
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1402,26 +515,11 @@ exports[`Cover correct usage renders default 1`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1431,17 +529,22 @@ exports[`Cover correct usage renders default 1`] = `
 `;
 
 exports[`Cover correct usage renders with bottom 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
+.c2 {
+  margin-top: var(--gutter);
+  margin-block-start: var(--gutter);
+  margin-bottom: 0;
+  margin-block-end: 0;
+}
+
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1452,39 +555,28 @@ exports[`Cover correct usage renders with bottom 1`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
     </p>
   </div>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
-  </p>
+  <div
+    className="c2"
+  >
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+    </p>
+  </div>
 </div>
 `;
 
 exports[`Cover correct usage renders with theme overrides 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -1492,9 +584,7 @@ exports[`Cover correct usage renders with theme overrides 1`] = `
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding: 1600;
-  --gutter: 1600;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1505,26 +595,11 @@ exports[`Cover correct usage renders with theme overrides 1`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1541,10 +616,15 @@ exports[`Cover correct usage renders with top 1`] = `
   margin-block-end: auto;
 }
 
+.c1 {
+  margin-top: 0;
+  margin-block-start: 0;
+  margin-bottom: var(--gutter);
+  margin-block-end: var(--gutter);
+}
+
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1555,29 +635,18 @@ exports[`Cover correct usage renders with top 1`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
-  </p>
   <div
-    className="c1 c2"
+    className="c1"
+  >
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+    </p>
+  </div>
+  <div
+    className="c2"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1587,7 +656,7 @@ exports[`Cover correct usage renders with top 1`] = `
 `;
 
 exports[`Cover correct usage use 1, 2, 3, 4 items arrays 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -1595,9 +664,7 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 1`] = `
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1608,26 +675,11 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 1`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1637,32 +689,15 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 1`] = `
 `;
 
 exports[`Cover correct usage use 1, 2, 3, 4 items arrays 2`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem 1rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1673,26 +708,11 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 2`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1702,47 +722,15 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 2`] = `
 `;
 
 exports[`Cover correct usage use 1, 2, 3, 4 items arrays 3`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem 1rem 0.125rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1753,26 +741,11 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 3`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1782,62 +755,15 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 3`] = `
 `;
 
 exports[`Cover correct usage use 1, 2, 3, 4 items arrays 4`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem 1rem 0.125rem 0.25rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1848,26 +774,11 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 4`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1877,7 +788,7 @@ exports[`Cover correct usage use 1, 2, 3, 4 items arrays 4`] = `
 `;
 
 exports[`Cover correct usage use padding object 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -1885,9 +796,7 @@ exports[`Cover correct usage use padding object 1`] = `
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding-inline-start: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1898,26 +807,11 @@ exports[`Cover correct usage use padding object 1`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1927,32 +821,15 @@ exports[`Cover correct usage use padding object 1`] = `
 `;
 
 exports[`Cover correct usage use padding object 2`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding-inline-end: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1963,26 +840,11 @@ exports[`Cover correct usage use padding object 2`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -1992,47 +854,15 @@ exports[`Cover correct usage use padding object 2`] = `
 `;
 
 exports[`Cover correct usage use padding object 3`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding-block-start: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2043,26 +873,11 @@ exports[`Cover correct usage use padding object 3`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -2072,62 +887,15 @@ exports[`Cover correct usage use padding object 3`] = `
 `;
 
 exports[`Cover correct usage use padding object 4`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding-block-end: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2138,26 +906,11 @@ exports[`Cover correct usage use padding object 4`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -2167,7 +920,7 @@ exports[`Cover correct usage use padding object 4`] = `
 `;
 
 exports[`Cover correct usage use padding object 5`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -2175,9 +928,7 @@ exports[`Cover correct usage use padding object 5`] = `
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding-inline-start: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2188,71 +939,11 @@ exports[`Cover correct usage use padding object 5`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -2262,32 +953,15 @@ exports[`Cover correct usage use padding object 5`] = `
 `;
 
 exports[`Cover correct usage use padding object 6`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding-inline-end: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2298,56 +972,11 @@ exports[`Cover correct usage use padding object 6`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -2357,47 +986,15 @@ exports[`Cover correct usage use padding object 6`] = `
 `;
 
 exports[`Cover correct usage use padding object 7`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding-block-start: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2408,41 +1005,11 @@ exports[`Cover correct usage use padding object 7`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -2452,62 +1019,15 @@ exports[`Cover correct usage use padding object 7`] = `
 `;
 
 exports[`Cover correct usage use padding object 8`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
   margin-block-end: auto;
 }
 
-.c3 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c3 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c3 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c4 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c4 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c4 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
-.c5 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c5 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c5 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  padding-block-end: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2518,26 +1038,11 @@ exports[`Cover correct usage use padding object 8`] = `
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -2547,7 +1052,7 @@ exports[`Cover correct usage use padding object 8`] = `
 `;
 
 exports[`Cover incorrect usage renders default with console error with wrong gutter 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -2555,9 +1060,7 @@ exports[`Cover incorrect usage renders default with console error with wrong gut
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2568,26 +1071,11 @@ exports[`Cover incorrect usage renders default with console error with wrong gut
   min-height: 100vh;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
@@ -2597,7 +1085,7 @@ exports[`Cover incorrect usage renders default with console error with wrong gut
 `;
 
 exports[`Cover incorrect usage renders with min-height incorrect with invalid minHeight 1`] = `
-.c2 {
+.c1 {
   margin-top: auto;
   margin-bottom: auto;
   margin-block-start: auto;
@@ -2605,9 +1093,7 @@ exports[`Cover incorrect usage renders with min-height incorrect with invalid mi
 }
 
 .c0 {
-  box-sizing: border-box;
-  padding: 0.5rem;
-  --gutter: 0.5rem;
+  --gutter: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2618,26 +1104,11 @@ exports[`Cover incorrect usage renders with min-height incorrect with invalid mi
   min-height: incorrect;
 }
 
-.c0 > *:not(.c1) {
-  margin-top: var(--gutter);
-  margin-bottom: var(--gutter);
-  margin-block-start: var(--gutter);
-  margin-block-end: var(--gutter);
-}
-
-.c0 > :first-child:not(.c1) {
-  margin-top: 0;
-}
-
-.c0 > :last-child:not(.c1) {
-  margin-bottom: 0;
-}
-
 <div
-  className="sc-AxjAm c0"
+  className="c0"
 >
   <div
-    className="c1 c2"
+    className="c1"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
