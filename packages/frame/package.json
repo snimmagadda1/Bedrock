@@ -1,16 +1,17 @@
 {
-  "name": "@bedrock-layout/inline-cluster",
-  "version": "1.1.1",
-  "description": "bedrock-layout inline-cluster",
+  "name": "@bedrock-layout/frame",
+  "version": "1.0.0",
+  "description": "bedrock-layout frame",
   "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "inline-cluster",
+    "frame",
     "layout",
-    "react"
+    "react",
+    "styled-components"
   ],
   "author": "Jarvis1010 <travis.mair@gmail.com>",
   "homepage": "https://bedrock-layout.dev/",
@@ -29,8 +30,7 @@
     "lib"
   ],
   "dependencies": {
-    "@bedrock-layout/spacing-constants": "^1.0.5",
-    "@bedrock-layout/type-utils": "^0.0.2"
+    "@bedrock-layout/spacing-constants": "^1.0.5"
   },
   "peerDependencies": {
     "react": ">=16.8",
@@ -49,5 +49,5 @@
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
   },
-  "gitHead": "a259e730ef453edf080e5196b01bdadba5028474"
+  "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec"
 }
