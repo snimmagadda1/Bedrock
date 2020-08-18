@@ -1,6 +1,6 @@
 {
   "name": "@bedrock-layout/use-stateful-ref",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "bedrock-layout useStatefulRef",
   "sideEffects": false,
   "private": false,
@@ -36,8 +36,12 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "clean:build": "rimraf lib",
-    "build": "microbundle build --jsx react && rimraf ./.rts2_cache*",
-    "build:watch": "microbundle build --jsx react --watch"
+    "build": "microbundle build --jsx React.createElement",
+    "build:watch": "microbundle build --jsx React.createElement --watch",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx|json)\"",
+    "fix-format": "npm run prettier -- --write",
+    "check-format": "npm run prettier -- --list-different",
+    "check-types": "tsc --noEmit"
   },
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"

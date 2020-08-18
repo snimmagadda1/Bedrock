@@ -1,6 +1,6 @@
 {
   "name": "@bedrock-layout/use-match-media",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "bedrock-layout useMatchMedia",
   "sideEffects": false,
   "private": false,
@@ -36,8 +36,12 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "clean:build": "rimraf lib",
-    "build": "microbundle build --jsx react && rimraf ./.rts2_cache*",
-    "build:watch": "microbundle build --jsx react --watch"
+    "build": "microbundle build --jsx React.createElement",
+    "build:watch": "microbundle build --jsx React.createElement --watch",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx|json)\"",
+    "fix-format": "npm run prettier -- --write",
+    "check-format": "npm run prettier -- --list-different",
+    "check-types": "tsc --noEmit"
   },
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
@@ -48,7 +52,7 @@
   },
   "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec",
   "dependencies": {
-    "@bedrock-layout/spacing-constants": "^1.0.5",
-    "@bedrock-layout/use-media-query": "^1.0.6"
+    "@bedrock-layout/spacing-constants": "^1.0.6",
+    "@bedrock-layout/use-media-query": "^1.0.7"
   }
 }

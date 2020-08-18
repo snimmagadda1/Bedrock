@@ -1,16 +1,17 @@
 {
-  "name": "@bedrock-layout/split",
-  "version": "1.1.2",
-  "description": "bedrock-layout split",
+  "name": "@bedrock-layout/css-reset",
+  "version": "1.0.1",
+  "description": "bedrock-layout css reset",
   "sideEffects": false,
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "split",
+    "css reset",
     "layout",
-    "react"
+    "react",
+    "styled-components"
   ],
   "author": "Jarvis1010 <travis.mair@gmail.com>",
   "homepage": "https://bedrock-layout.dev/",
@@ -28,9 +29,6 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "@bedrock-layout/spacing-constants": "^1.0.6"
-  },
   "peerDependencies": {
     "react": ">=16.8",
     "styled-components": ">=5"
@@ -42,7 +40,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "clean:build": "rimraf lib",
-    "build": "microbundle build --jsx React.createElement",
+    "build": "microbundle build --jsx React.createElement && node copyReset.js",
     "build:watch": "microbundle build --jsx React.createElement --watch",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx|json)\"",
     "fix-format": "npm run prettier -- --write",
@@ -52,5 +50,5 @@
   "bugs": {
     "url": "https://github.com/Bedrock-Layouts/Bedrock/issues"
   },
-  "gitHead": "a259e730ef453edf080e5196b01bdadba5028474"
+  "gitHead": "1ac6f1bbee09a2fae8ca4fd3b3a2b1086b3b64ec"
 }
