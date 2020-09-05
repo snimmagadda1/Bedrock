@@ -1,8 +1,12 @@
-import React from "react";
-import { create, act } from "react-test-renderer";
 import { spacing } from "@bedrock-layout/spacing-constants";
+import useContainerQuery from "@bedrock-layout/use-container-query";
+import React from "react";
+import { act, create } from "react-test-renderer";
 import { ThemeProvider } from "styled-components";
-import { SplitSwitcher, ColumnsSwitcher } from "../src";
+
+import { ColumnsSwitcher, SplitSwitcher } from "../src";
+
+jest.mock("@bedrock-layout/use-container-query");
 
 const Lorem = () => (
   <>
@@ -56,6 +60,7 @@ describe("Switcher", () => {
             </SplitSwitcher>
           </ThemeProvider>
         );
+
         expect(stack.toJSON()).toMatchSnapshot();
       });
 
@@ -70,22 +75,32 @@ describe("Switcher", () => {
         });
         expect(spy).toBeCalled();
       });
+
+      it("should render a stack if container is below default", () => {
+        useContainerQuery.mockReturnValue(true);
+
+        const stack = create(
+          <SplitSwitcher>
+            <Lorem />
+          </SplitSwitcher>
+        );
+
+        expect(stack.toJSON()).toMatchSnapshot();
+
+        useContainerQuery.mockRestore();
+      });
     });
 
     describe("incorrect usage", () => {
-      let originalError;
-      let spy;
       beforeEach(() => {
-        originalError = console.error;
-        spy = jest.fn();
-        console.error = spy;
+        jest.spyOn(console, "error");
       });
       afterEach(() => {
-        console.error = originalError;
+        console.error.mockRestore();
       });
 
       it("renders default with console error with wrong input", () => {
-        expect(spy.mock.calls.length).toBe(0);
+        expect(console.error.mock.calls.length).toBe(0);
 
         const errorStack = create(
           <SplitSwitcher gutter="incorrect">
@@ -93,12 +108,12 @@ describe("Switcher", () => {
           </SplitSwitcher>
         );
 
-        expect(spy).toBeCalled();
+        expect(console.error).toBeCalled();
         expect(errorStack.toJSON()).toMatchSnapshot();
       });
 
       it("renders default with console error with wrong fraction input", () => {
-        expect(spy.mock.calls.length).toBe(0);
+        expect(console.error.mock.calls.length).toBe(0);
 
         const errorStack = create(
           <SplitSwitcher fraction="incorrect">
@@ -106,12 +121,12 @@ describe("Switcher", () => {
           </SplitSwitcher>
         );
 
-        expect(spy).toBeCalled();
+        expect(console.error).toBeCalled();
         expect(errorStack.toJSON()).toMatchSnapshot();
       });
 
       it("renders default with console error with wrong switchAt input", () => {
-        expect(spy.mock.calls.length).toBe(0);
+        expect(console.error.mock.calls.length).toBe(0);
 
         const errorStack = create(
           <SplitSwitcher switchAt="incorrect">
@@ -119,7 +134,7 @@ describe("Switcher", () => {
           </SplitSwitcher>
         );
 
-        expect(spy).toBeCalled();
+        expect(console.error).toBeCalled();
         expect(errorStack.toJSON()).toMatchSnapshot();
       });
     });
@@ -191,57 +206,66 @@ describe("Switcher", () => {
         });
         expect(spy).toBeCalled();
       });
+      it("should render a stack if container is below default", () => {
+        useContainerQuery.mockReturnValue(true);
+
+        const stack = create(
+          <ColumnsSwitcher>
+            <Lorem />
+          </ColumnsSwitcher>
+        );
+
+        expect(stack.toJSON()).toMatchSnapshot();
+
+        useContainerQuery.mockRestore();
+      });
     });
 
     describe("incorrect usage", () => {
-      let originalError;
-      let spy;
       beforeEach(() => {
-        originalError = console.error;
-        spy = jest.fn();
-        console.error = spy;
+        jest.spyOn(console, "error");
       });
       afterEach(() => {
-        console.error = originalError;
+        console.error.mockRestore();
       });
       it("renders default with console error with wrong input", () => {
-        expect(spy.mock.calls.length).toBe(0);
+        expect(console.error.mock.calls.length).toBe(0);
         const errorStack = create(
           <ColumnsSwitcher gutter="incorrect">
             <Lorem />
           </ColumnsSwitcher>
         );
-        expect(spy).toBeCalled();
+        expect(console.error).toBeCalled();
         expect(errorStack.toJSON()).toMatchSnapshot();
       });
       it("renders default with console error with wrong columns input", () => {
-        expect(spy.mock.calls.length).toBe(0);
+        expect(console.error.mock.calls.length).toBe(0);
         const errorStack = create(
           <ColumnsSwitcher columns="incorrect">
             <Lorem />
           </ColumnsSwitcher>
         );
-        expect(spy).toBeCalled();
+        expect(console.error).toBeCalled();
         expect(errorStack.toJSON()).toMatchSnapshot();
       });
       it("renders default with console error with wrong dense input", () => {
-        expect(spy.mock.calls.length).toBe(0);
+        expect(console.error.mock.calls.length).toBe(0);
         const errorStack = create(
           <ColumnsSwitcher dense="incorrect">
             <Lorem />
           </ColumnsSwitcher>
         );
-        expect(spy).toBeCalled();
+        expect(console.error).toBeCalled();
         expect(errorStack.toJSON()).toMatchSnapshot();
       });
       it("renders default with console error with wrong switchAt input", () => {
-        expect(spy.mock.calls.length).toBe(0);
+        expect(console.error.mock.calls.length).toBe(0);
         const errorStack = create(
           <ColumnsSwitcher switchAt="incorrect">
             <Lorem />
           </ColumnsSwitcher>
         );
-        expect(spy).toBeCalled();
+        expect(console.error).toBeCalled();
         expect(errorStack.toJSON()).toMatchSnapshot();
       });
     });

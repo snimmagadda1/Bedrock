@@ -11,6 +11,7 @@
   "scripts": {
     "start": "start-storybook -p 9001 -c .storybook",
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "test:watch": "jest --watch --notify",
     "dev": "docz dev",
     "build:site": "docz build",
@@ -28,7 +29,7 @@
     "prepublish": "npm run build",
     "publish": "lerna publish",
     "publish:fix": "lerna publish from-package",
-    "verify": "npm-run-all --parallel check-types test lint check-format"
+    "verify": "npm-run-all --parallel check-types test lint check-format test:coverage"
   },
   "dependencies": {
     "@bedrock-layout/appboundary": "file:./packages/appboundary",
@@ -50,7 +51,7 @@
     "@bedrock-layout/use-match-media": "file:./packages/use-match-media",
     "@bedrock-layout/use-media-query": "file:./packages/use-media-query",
     "@bedrock-layout/use-stateful-ref": "file:./packages/use-stateful-ref",
-    "@reach/visually-hidden": "^0.10.4",
+    "@reach/visually-hidden": "^0.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.1"
@@ -92,6 +93,7 @@
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^2.5.1",
     "husky": "^4.2.3",
+    "import-sort-style-module": "^6.0.0",
     "jest": "^26.4.0",
     "jest-styled-components": "^7.0.0",
     "lerna": "^3.22.1",
@@ -101,6 +103,7 @@
     "npm-run-all": "^4.1.5",
     "pepjs": "^0.5.2",
     "prettier": "^2.0.5",
+    "prettier-plugin-import-sort": "0.0.4",
     "prop-types": "^15.7.2",
     "react-docgen-typescript-loader": "^3.7.1",
     "react-test-renderer": "^16.13.1",
@@ -112,18 +115,25 @@
     "singleQuote": false,
     "arrowParens": "always"
   },
+  "importSort": {
+    ".js, .jsx, .ts, .tsx": {
+      "style": "module",
+      "parser": "typescript"
+    }
+  },
   "lint-staged": {
     "*.+(js|ts|tsx)": [
       "eslint"
     ],
     "**/*.+(js|json|ts|tsx)": [
-      "prettier --write",
-      "git add"
-    ]
+      "prettier --write"
+    ],
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run verify && lint-staged"
+      "pre-commit": "lint-staged && npm run verify"
     }
   }
 }
