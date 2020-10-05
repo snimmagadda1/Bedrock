@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Spacing Constants constant snampshot 1`] = `
+exports[`Spacing Constants constant snapshot 1`] = `
 Object {
   "breakPoints": Object {
     "large": 1199,
@@ -25,13 +25,53 @@ Object {
   "mergeSpacings": [Function],
   "spacing": Object {
     "lg": "1rem",
+    "lgXl": "1.5rem",
     "md": "0.5rem",
+    "mdLg": "0.75rem",
     "none": "0px",
     "sm": "0.25rem",
     "xl": "2rem",
+    "xlXXl": "3rem",
     "xs": "0.125rem",
     "xxl": "4rem",
   },
+}
+`;
+
+exports[`Spacing Constants does not break if called with no object 1`] = `
+Object {
+  "large": 1199,
+  "largeOnly": Array [
+    1024,
+    1199,
+  ],
+  "medium": 1023,
+  "mediumOnly": Array [
+    640,
+    1023,
+  ],
+  "smallOnly": 639,
+  "xlarge": 1439,
+  "xlargeOnly": Array [
+    1200,
+    1439,
+  ],
+  "xxlarge": 1920,
+}
+`;
+
+exports[`Spacing Constants does not break if called without an object 1`] = `
+Object {
+  "lg": "1rem",
+  "lgXl": "1.5rem",
+  "md": "0.5rem",
+  "mdLg": "0.75rem",
+  "none": "0px",
+  "sm": "0.25rem",
+  "xl": "2rem",
+  "xlXXl": "3rem",
+  "xs": "0.125rem",
+  "xxl": "4rem",
 }
 `;
 
@@ -60,10 +100,13 @@ Object {
 exports[`Spacing Constants merges spacing 1`] = `
 Object {
   "lg": "1rem",
+  "lgXl": "1.5rem",
   "md": "0.5rem",
+  "mdLg": "0.75rem",
   "none": "0px",
   "sm": "0.25rem",
   "xl": "8rem",
+  "xlXXl": "3rem",
   "xs": "0.125rem",
   "xxl": "4rem",
 }

@@ -46,40 +46,10 @@ module.exports = {
   // An object that configures minimum threshold enforcement for coverage results
   coverageThreshold: {
     global: {
-      statements: 95.15,
-      branches: 89.68,
-      functions: 95.65,
-      lines: 95,
-    },
-    "packages/use-forwarded-ref/src": {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
-    },
-    "packages/use-stateful-ref/src": {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
-    },
-    "packages/use-match-container-sizes/src": {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
-    },
-    "packages/use-media-query/src": {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
-    },
-    "packages/type-utils/src": {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
+      statements: 100,
+      branches: 93,
+      lines: 100,
+      functions: 100,
     },
   },
 

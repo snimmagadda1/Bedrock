@@ -7,24 +7,8 @@ exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 1
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0px;
-  }
 }
 
 <div
@@ -52,28 +36,8 @@ exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 2
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.125rem;
-  }
 }
 
 <div
@@ -101,32 +65,8 @@ exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 3
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.25rem;
-  }
 }
 
 <div
@@ -154,36 +94,8 @@ exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 4
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.5rem;
-  }
 }
 
 <div
@@ -207,44 +119,12 @@ exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 4
 exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 5`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 1rem;
+  --gutter: 0.75rem;
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -268,48 +148,12 @@ exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 5
 exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 6`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 2rem;
+  --gutter: 1rem;
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 2rem;
-  }
 }
 
 <div
@@ -333,52 +177,99 @@ exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 6
 exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 7`] = `
 .c0 {
   box-sizing: border-box;
+  --gutter: 1.5rem;
+  --columns: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--columns),1fr);
+  gap: var(--gutter);
+  grid-auto-flow: row;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 8`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 2rem;
+  --columns: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--columns),1fr);
+  gap: var(--gutter);
+  grid-auto-flow: row;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 9`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 3rem;
+  --columns: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--columns),1fr);
+  gap: var(--gutter);
+  grid-auto-flow: row;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Switcher ColumnsSwitcher correct usage renders all the gutter options 10`] = `
+.c0 {
+  box-sizing: border-box;
   --gutter: 4rem;
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 4rem;
-  }
 }
 
 <div
@@ -406,24 +297,8 @@ exports[`Switcher ColumnsSwitcher correct usage renders custom columns 1`] = `
   --columns: 5;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -451,24 +326,8 @@ exports[`Switcher ColumnsSwitcher correct usage renders default gutters 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -496,24 +355,8 @@ exports[`Switcher ColumnsSwitcher correct usage renders dense mode 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row dense;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -541,24 +384,8 @@ exports[`Switcher ColumnsSwitcher correct usage renders with theme overrides 1`]
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -592,22 +419,6 @@ exports[`Switcher ColumnsSwitcher correct usage should render a stack if contain
   grid-column: span 1 / auto;
 }
 
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
-}
-
 <div
   className="c0"
 >
@@ -633,24 +444,8 @@ exports[`Switcher ColumnsSwitcher incorrect usage renders default with console e
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -678,24 +473,8 @@ exports[`Switcher ColumnsSwitcher incorrect usage renders default with console e
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -723,24 +502,8 @@ exports[`Switcher ColumnsSwitcher incorrect usage renders default with console e
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -768,24 +531,8 @@ exports[`Switcher ColumnsSwitcher incorrect usage renders default with console e
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -811,24 +558,8 @@ exports[`Switcher SplitSwitcher correct usage renders all the gutter options 1`]
   box-sizing: border-box;
   --gutter: 0px;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0px;
-  }
 }
 
 <div
@@ -854,28 +585,8 @@ exports[`Switcher SplitSwitcher correct usage renders all the gutter options 2`]
   box-sizing: border-box;
   --gutter: 0.125rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.125rem;
-  }
 }
 
 <div
@@ -901,32 +612,8 @@ exports[`Switcher SplitSwitcher correct usage renders all the gutter options 3`]
   box-sizing: border-box;
   --gutter: 0.25rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.25rem;
-  }
 }
 
 <div
@@ -952,36 +639,8 @@ exports[`Switcher SplitSwitcher correct usage renders all the gutter options 4`]
   box-sizing: border-box;
   --gutter: 0.5rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.5rem;
-  }
 }
 
 <div
@@ -1005,42 +664,10 @@ exports[`Switcher SplitSwitcher correct usage renders all the gutter options 4`]
 exports[`Switcher SplitSwitcher correct usage renders all the gutter options 5`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 1rem;
+  --gutter: 0.75rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -1064,46 +691,10 @@ exports[`Switcher SplitSwitcher correct usage renders all the gutter options 5`]
 exports[`Switcher SplitSwitcher correct usage renders all the gutter options 6`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 2rem;
+  --gutter: 1rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 2rem;
-  }
 }
 
 <div
@@ -1127,50 +718,91 @@ exports[`Switcher SplitSwitcher correct usage renders all the gutter options 6`]
 exports[`Switcher SplitSwitcher correct usage renders all the gutter options 7`] = `
 .c0 {
   box-sizing: border-box;
+  --gutter: 1.5rem;
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: 1fr 1fr;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Switcher SplitSwitcher correct usage renders all the gutter options 8`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 2rem;
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: 1fr 1fr;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Switcher SplitSwitcher correct usage renders all the gutter options 9`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 3rem;
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: 1fr 1fr;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Switcher SplitSwitcher correct usage renders all the gutter options 10`] = `
+.c0 {
+  box-sizing: border-box;
   --gutter: 4rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 4rem;
-  }
 }
 
 <div
@@ -1196,24 +828,8 @@ exports[`Switcher SplitSwitcher correct usage renders default gutters 1`] = `
   box-sizing: border-box;
   --gutter: 1rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -1239,24 +855,8 @@ exports[`Switcher SplitSwitcher correct usage renders with theme overrides 1`] =
   box-sizing: border-box;
   --gutter: 1rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -1290,22 +890,6 @@ exports[`Switcher SplitSwitcher correct usage should render a stack if container
   grid-column: span 1 / auto;
 }
 
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
-}
-
 <div
   className="c0"
 >
@@ -1329,24 +913,8 @@ exports[`Switcher SplitSwitcher incorrect usage renders default with console err
   box-sizing: border-box;
   --gutter: 1rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -1372,24 +940,8 @@ exports[`Switcher SplitSwitcher incorrect usage renders default with console err
   box-sizing: border-box;
   --gutter: 1rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -1415,24 +967,8 @@ exports[`Switcher SplitSwitcher incorrect usage renders default with console err
   box-sizing: border-box;
   --gutter: 1rem;
   display: grid;
+  gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--gutter);
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div

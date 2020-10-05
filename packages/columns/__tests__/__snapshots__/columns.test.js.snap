@@ -7,28 +7,12 @@ exports[`Column correct usage renders custom span 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
 }
 
 .c1 {
   grid-column: span 2 / auto;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -62,28 +46,12 @@ exports[`Column correct usage renders default gutters 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
 }
 
 .c1 {
   grid-column: span 1 / auto;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -117,28 +85,12 @@ exports[`Column incorrect usage renders a span of 1 if given 0 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
 }
 
 .c1 {
   grid-column: span 1 / auto;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -172,28 +124,12 @@ exports[`Column incorrect usage renders a span of 1 if given negative number 1`]
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
 }
 
 .c1 {
   grid-column: span 1 / auto;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -227,28 +163,12 @@ exports[`Column incorrect usage renders default with console error with wrong sp
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
 }
 
 .c1 {
   grid-column: span 1 / auto;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -282,24 +202,8 @@ exports[`Columns correct usage renders all the gutter options 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0px;
-  }
 }
 
 <div
@@ -327,28 +231,8 @@ exports[`Columns correct usage renders all the gutter options 2`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.125rem;
-  }
 }
 
 <div
@@ -376,32 +260,8 @@ exports[`Columns correct usage renders all the gutter options 3`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.25rem;
-  }
 }
 
 <div
@@ -429,36 +289,8 @@ exports[`Columns correct usage renders all the gutter options 4`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.5rem;
-  }
 }
 
 <div
@@ -482,44 +314,12 @@ exports[`Columns correct usage renders all the gutter options 4`] = `
 exports[`Columns correct usage renders all the gutter options 5`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 1rem;
+  --gutter: 0.75rem;
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -543,48 +343,12 @@ exports[`Columns correct usage renders all the gutter options 5`] = `
 exports[`Columns correct usage renders all the gutter options 6`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 2rem;
+  --gutter: 1rem;
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 2rem;
-  }
 }
 
 <div
@@ -608,52 +372,99 @@ exports[`Columns correct usage renders all the gutter options 6`] = `
 exports[`Columns correct usage renders all the gutter options 7`] = `
 .c0 {
   box-sizing: border-box;
+  --gutter: 1.5rem;
+  --columns: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--columns),1fr);
+  gap: var(--gutter);
+  grid-auto-flow: row;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Columns correct usage renders all the gutter options 8`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 2rem;
+  --columns: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--columns),1fr);
+  gap: var(--gutter);
+  grid-auto-flow: row;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Columns correct usage renders all the gutter options 9`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 3rem;
+  --columns: 1;
+  display: grid;
+  grid-template-columns: repeat(var(--columns),1fr);
+  gap: var(--gutter);
+  grid-auto-flow: row;
+}
+
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
+
+exports[`Columns correct usage renders all the gutter options 10`] = `
+.c0 {
+  box-sizing: border-box;
   --gutter: 4rem;
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 4rem;
-  }
 }
 
 <div
@@ -681,24 +492,8 @@ exports[`Columns correct usage renders custom columns 1`] = `
   --columns: 5;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -726,24 +521,8 @@ exports[`Columns correct usage renders default gutters 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -771,24 +550,8 @@ exports[`Columns correct usage renders dense mode 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row dense;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -816,24 +579,8 @@ exports[`Columns correct usage renders with theme overrides 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -861,24 +608,8 @@ exports[`Columns incorrect usage renders 1 columns if given 0 1`] = `
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -906,24 +637,8 @@ exports[`Columns incorrect usage renders 1 columns if given negative number 1`] 
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -951,24 +666,8 @@ exports[`Columns incorrect usage renders default with console error with incorre
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -996,24 +695,8 @@ exports[`Columns incorrect usage renders default with console error with incorre
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -1041,24 +724,8 @@ exports[`Columns incorrect usage renders default with console error with wrong g
   --columns: 1;
   display: grid;
   grid-template-columns: repeat(var(--columns),1fr);
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-auto-flow: row;
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div

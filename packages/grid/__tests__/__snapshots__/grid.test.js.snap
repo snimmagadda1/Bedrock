@@ -6,24 +6,8 @@ exports[`Grid correct usage renders all the gutter options 1`] = `
   --gutter: 0px;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0px;
-  }
 }
 
 <div
@@ -50,28 +34,8 @@ exports[`Grid correct usage renders all the gutter options 2`] = `
   --gutter: 0.125rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.125rem;
-  }
 }
 
 <div
@@ -98,32 +62,8 @@ exports[`Grid correct usage renders all the gutter options 3`] = `
   --gutter: 0.25rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.25rem;
-  }
 }
 
 <div
@@ -150,36 +90,8 @@ exports[`Grid correct usage renders all the gutter options 4`] = `
   --gutter: 0.5rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 0.5rem;
-  }
 }
 
 <div
@@ -203,43 +115,11 @@ exports[`Grid correct usage renders all the gutter options 4`] = `
 exports[`Grid correct usage renders all the gutter options 5`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 1rem;
+  --gutter: 0.75rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -263,47 +143,11 @@ exports[`Grid correct usage renders all the gutter options 5`] = `
 exports[`Grid correct usage renders all the gutter options 6`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 2rem;
+  --gutter: 1rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 2rem;
-  }
 }
 
 <div
@@ -327,51 +171,95 @@ exports[`Grid correct usage renders all the gutter options 6`] = `
 exports[`Grid correct usage renders all the gutter options 7`] = `
 .c0 {
   box-sizing: border-box;
-  --gutter: 4rem;
+  --gutter: 1.5rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
 }
 
-@supports not (grid-gap:var(--gutter)) {
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
 
+exports[`Grid correct usage renders all the gutter options 8`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 2rem;
+  --minItemWidth: 639px;
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
 }
 
-@supports not (grid-gap:var(--gutter)) {
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
 
+exports[`Grid correct usage renders all the gutter options 9`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 3rem;
+  --minItemWidth: 639px;
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
 }
 
-@supports not (grid-gap:var(--gutter)) {
+<div
+  className="c0"
+>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vestibulum tortor, vitae venenatis lectus. Praesent gravida dapibus neque sit amet molestie. Morbi blandit eu dolor a luctus. Vestibulum sollicitudin elit ac nunc scelerisque rhoncus. Nulla felis sapien, condimentum ut imperdiet vel, aliquet id ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices, quam nec scelerisque malesuada, lectus elit semper diam, ac placerat purus tortor et enim.
+  </p>
+</div>
+`;
 
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 4rem;
-  }
+exports[`Grid correct usage renders all the gutter options 10`] = `
+.c0 {
+  box-sizing: border-box;
+  --gutter: 4rem;
+  --minItemWidth: 639px;
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
 }
 
 <div
@@ -398,24 +286,8 @@ exports[`Grid correct usage renders custom minItemWidth 1`] = `
   --gutter: 1rem;
   --minItemWidth: 320px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -442,24 +314,8 @@ exports[`Grid correct usage renders default gutters 1`] = `
   --gutter: 1rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -486,24 +342,8 @@ exports[`Grid correct usage renders with theme overrides 1`] = `
   --gutter: 1rem;
   --minItemWidth: 320px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -530,24 +370,8 @@ exports[`Grid incorrect usage renders default with console error with minItemWid
   --gutter: 1rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
@@ -574,24 +398,8 @@ exports[`Grid incorrect usage renders default with console error with wrong gutt
   --gutter: 1rem;
   --minItemWidth: 639px;
   display: grid;
-  grid-gap: var(--gutter);
+  gap: var(--gutter);
   grid-template-columns: repeat( auto-fit, minmax(min(var(--minItemWidth),100%),1fr) );
-}
-
-@supports not (grid-gap:var(--gutter)) {
-  .c0 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
-  }
-
-  .c0 > * + * {
-    margin-top: 1rem;
-  }
 }
 
 <div
